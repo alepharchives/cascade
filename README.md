@@ -39,6 +39,14 @@ I run this with the CouchDB dev server runner.
     $ ./bootstrap && ./configure && make dev
     $ ERL_LIBS=/path/to/cascade ./utils/run
 
+Configuring
+===========
+
+Add the following to your local_dev.ini:
+
+    [httpd_db_handlers]
+    _cascade = {cascade, handle_cascade_req}
+
 Testing
 =======
 
