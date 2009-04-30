@@ -1,0 +1,8 @@
+{ "docs": [
+    {"_id": "1", "int": 1, "word": "bengal"},
+    {"_id": "2", "int": 2, "word": "doughnut"},
+    {"_id": "3", "int": 3, "word": "independant phosphoglycolmutase"},
+    {"_id": "4", "int": 4, "word": "spot"},
+    {"_id": "5", "int": 5, "word": "opossum"},
+    {"_id": "6", "int": 6, "word": "fowl"}
+]}

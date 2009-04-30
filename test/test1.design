@@ -1,0 +1,16 @@
+{
+    "language": "javascript",
+    "views": {
+        "cascade": {
+            "map": "function(doc) {emit(doc.int, doc.int % 2);}",
+            "reduce": "function(keys, values) {return sum(values);}"
+        }
+    },
+    "cascade": [
+        {"map": "function(doc) {emit(doc.value, doc.key);}"},
+        {
+            "map": "function(doc) {emit(doc.key, doc.value);}",
+            "reduce": "function(keys, values) {return sum(values);}"
+        }
+    ]
+}
